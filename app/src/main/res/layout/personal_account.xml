@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PersonalAccount" android:onClick="PaymentMethod">
+    <ImageView
+            android:layout_width="436dp"
+            android:layout_height="287dp"
+            app:srcCompat="@drawable/images"
+            android:id="@+id/imageView3"
+            tools:layout_editor_absoluteY="-30dp"
+            tools:layout_editor_absoluteX="-13dp"/>
+    <ImageView
+            android:layout_width="125dp"
+            android:layout_height="124dp"
+            app:srcCompat="@drawable/ic_launcher"
+            android:id="@+id/imageView4"
+            tools:layout_editor_absoluteY="43dp"
+            tools:layout_editor_absoluteX="143dp"/>
+
+    <Button
+            android:text="EDIT PROFILE"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:layout_width="97dp"
+            android:layout_height="55dp"
+            ndroid:id="@+id/button"
+            android:onClick="editProfile"
+            tools:layout_editor_absoluteY="-2dp"
+            tools:layout_editor_absoluteX="310dp"/>
+    <TextView
+            android:text="NEYMAR JUNIOR" android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            tools:layout_editor_absoluteY="167dp"
+            tools:layout_editor_absoluteX="125dp"/>
+    <TextView
+            android:text="vishall_22007347@utp.edu.my"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:layout_width="213dp"
+            android:layout_height="25dp"
+            android:id="@+id/textView9"
+            tools:layout_editor_absoluteY="204dp"
+            tools:layout_editor_absoluteX="107dp"/>
+    <View
+            android:id="@+id/divider2"
+            android:layout_width="411dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            tools:layout_editor_absoluteY="482dp"
+            tools:layout_editor_absoluteX="0dp"/>
+    <View
+            android:id="@+id/divider4"
+            android:layout_width="411dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            tools:layout_editor_absoluteY="332dp"
+            tools:layout_editor_absoluteX="0dp"/>
+
+    <View
+            android:id="@+id/divider3"
+            android:layout_width="411dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            tools:layout_editor_absoluteY="623dp"
+            tools:layout_editor_absoluteX="0dp"/>
+    <Button
+            android:text="LOG OUT"
+            android:layout_width="112dp"
+            android:layout_height="50dp" android:id="@+id/logOut2"
+            android:textSize="15sp"
+            android:onClick="logOut"
+            tools:layout_editor_absoluteY="631dp" tools:layout_editor_absoluteX="147dp"/>
+    <TextView
+            android:text="Activity"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            tools:layout_editor_absoluteY="341dp"
+            tools:layout_editor_absoluteX="7dp"/>
+
+    <ImageButton
+            android:layout_width="95dp"
+            android:layout_height="44dp" app:srcCompat="@drawable/contact_support_fill0_wght400_grad0_opsz48"
+            android:background="@android:color/transparent"
+            android:id="@+id/aboutImage"
+            android:onClick="AboutUs"
+            tools:layout_editor_absoluteY="526dp" tools:layout_editor_absoluteX="299dp"/>
+    <ImageButton
+            android:layout_width="95dp"
+            android:layout_height="74dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/settings"
+            android:id="@+id/settingsImage"
+            android:onClick="Settings"
+            tools:layout_editor_absoluteY="510dp" tools:layout_editor_absoluteX="157dp"/>
+    <Button
+            android:text="SETTINGS"
+            android:layout_width="107dp"
+            android:layout_height="35dp"
+            android:background="@android:color/transparent"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/settings"
+            android:onClick="Settings"
+            tools:layout_editor_absoluteY="570dp" tools:layout_editor_absoluteX="151dp"/>
+    <ImageButton
+            android:layout_width="95dp"
+            android:layout_height="74dp" app:srcCompat="@drawable/privacypolicy"
+            android:background="@android:color/transparent"
+            android:id="@+id/privacyPolicyImage"
+            android:onClick="PrivacyPolicy"
+            tools:layout_editor_absoluteY="510dp" tools:layout_editor_absoluteX="6dp"/>
+    <Button
+            android:text="PRIVACY POLICY"
+            android:layout_width="101dp"
+            android:layout_height="35dp"
+            android:id="@+id/privacyPolicy"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@android:color/transparent"
+            android:onClick="PrivacyPolicy"
+            tools:layout_editor_absoluteY="570dp" tools:layout_editor_absoluteX="6dp"/>
+    <Button
+            android:text="ABOUT US"
+            android:layout_width="95dp"
+            android:layout_height="36dp"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@android:color/transparent"
+            android:id="@+id/aboutUs"
+            android:onClick="AboutUs"
+            tools:layout_editor_absoluteY="569dp" tools:layout_editor_absoluteX="299dp"/>
+    <TextView
+            android:text="Support"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content" android:id="@+id/textView7"
+            tools:layout_editor_absoluteY="494dp" tools:layout_editor_absoluteX="6dp"/>
+    <TextView
+            android:text="Personal Details"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView8"
+            tools:layout_editor_absoluteY="239dp" tools:layout_editor_absoluteX="6dp"/>
+    <ImageButton
+            android:layout_width="76dp"
+            android:layout_height="56dp"
+            app:srcCompat="@drawable/details"
+            android:id="@+id/detailsImage"
+            android:background="@android:color/transparent"
+            android:onClick="Details"
+            tools:layout_editor_absoluteY="258dp" tools:layout_editor_absoluteX="82dp"/>
+    <Button
+            android:text="DETAILS"
+            android:layout_width="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/details"
+            android:onClick="Details"
+            tools:layout_editor_absoluteY="293dp" tools:layout_editor_absoluteX="74dp"/>
+    <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="36dp"
+            app:srcCompat="@drawable/bussiness_account"
+            android:background="@android:color/transparent"
+            android:id="@+id/bussinessImage"
+            android:onClick="BusinessAccount"
+            tools:layout_editor_absoluteY="269dp" tools:layout_editor_absoluteX="270dp"/>
+    <Button
+            android:text="BUSINESS ACCOUNT"
+            android:layout_width="106dp"
+            android:layout_height="63dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/personalAccount"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:onClick="BusinessAccount"
+            tools:layout_editor_absoluteY="286dp" tools:layout_editor_absoluteX="259dp"/>
+    <ImageButton
+            android:layout_width="84dp"
+            android:layout_height="47dp"
+            app:srcCompat="@drawable/history_of_services"
+            android:id="@+id/historyCustomerImage"
+            android:background="@android:color/transparent"
+            android:onClick="History"
+            tools:layout_editor_absoluteY="376dp" tools:layout_editor_absoluteX="310dp"/>
+    <Button
+            android:text="HISTORY"
+            android:layout_width="114dp"
+            android:layout_height="45dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@android:color/transparent"
+            android:id="@+id/historyServices"
+            android:onClick="History"
+            tools:layout_editor_absoluteY="412dp" tools:layout_editor_absoluteX="293dp"/>
+    <Button
+            android:text="PAYMENT METHOD"
+            android:layout_width="119dp"
+            android:layout_height="59dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/PaymentMethod"
+            android:onClick="PaymentMethod"
+            tools:layout_editor_absoluteY="403dp" tools:layout_editor_absoluteX="2dp"/>
+    <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="36dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/payment_method"
+            android:id="@+id/paymentImage"
+            android:onClick="PaymentMethod"
+            tools:layout_editor_absoluteY="376dp" tools:layout_editor_absoluteX="18dp"/>
+    <Button
+            android:text="SERVICES"
+            android:layout_width="129dp"
+            android:layout_height="42dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:id="@+id/servicesCustomer"
+            android:onClick="Services"
+            tools:layout_editor_absoluteY="412dp" tools:layout_editor_absoluteX="137dp"/>
+    <ImageButton
+            android:layout_width="93dp"
+            android:layout_height="44dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/services___customer"
+            android:id="@+id/servicesImage"
+            android:onClick="Services"
+            tools:layout_editor_absoluteY="376dp" tools:layout_editor_absoluteX="156dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
